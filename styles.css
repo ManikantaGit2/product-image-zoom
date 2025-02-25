@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8091c1;
+}
+
+.product-container {
+    position: relative;
+    width: 300px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+#product-image {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+.zoom-box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    display: none;
+    pointer-events: none;
+}
